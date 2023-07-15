@@ -346,3 +346,138 @@ textarea {
 
 
 }
+/* responsive styles */
+
+/* mobile devices */
+@media screen and (max-width:576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+    #what-i-do-description{
+        padding: 20px;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    footer{
+        padding: 15px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact-form input[type="text"], .contact-form input[type="email"],
+    textarea {
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+    .about{
+        padding: 25px;
+    }
+    .about-info {
+        font-size: 15px;
+        
+    }
+    .about-info-container {
+       flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner {
+        padding: 15px;
+    }
+
+    .mf-img{
+        margin-top: 15px;
+        width:350px;
+        height: 250px;
+    }
+    .nav-title{
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .btn-dn-cv{
+        padding: 16px 12px;
+        margin-right: 5px;
+    }
+    .btn-con{
+        padding: 16px 12px;
+        margin: 0px;
+    }
+    nav li {
+        margin-right: 30px;
+    
+    }
+}
+
+/* tablet devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    #what-i-do-description {
+        padding: -8px 205px;}
+        .skills-container {
+            flex-direction: column;
+            margin-left: 200px;
+
+}
+.footer-container{
+    flex-direction: column;
+}
+footer{
+    padding: 30px;
+}
+.footer-column{
+    width: 100%;
+}
+.contact-form input[type="text"], .contact-form input[type="email"],
+textarea {
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.about{
+    padding: 40px;
+}
+.about-info {
+    font-size: 20px;
+    
+}
+.about-info-container {
+   flex-direction: column;
+}
+.header{
+    background-image: none;
+}
+.banner{
+    flex-direction: column;
+}
+.banner {
+    padding: 15px;
+}
+
+.mf-img{
+    margin-top: 15px;
+    width:350px;
+    height: 250px;
+}
+.nav-title{
+    font-size: 20px;
+    margin-left: 25px;
+}
+.btn-dn-cv{
+    padding: 16px 12px;
+    margin-right: 5px;
+}
+.btn-con{
+    padding: 16px 12px;
+    margin: 0px;
+}
+nav li {
+    margin-right: 30px;
+
+}
+}
